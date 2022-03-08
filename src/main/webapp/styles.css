@@ -10,14 +10,22 @@
 /* description font */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
 
+/* headline font */
+/* @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+
 * {
   padding: 0;
   margin: 0;
+  background-color: black;
+  max-width: 2560px;
+  max-height: 800px;
+  overflow: hidden;
 }
 .welcome_body,
 .login_body,
 .signup_body {
-  overflow: hidden;
+  overflow: auto;
 }
 
 .main {
@@ -39,7 +47,6 @@ header {
   color: white;
   font-family: "Comforter", cursive;
   font-size: 180px;
-  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
   text-align: center;
   border-color: black;
 }
@@ -52,14 +59,13 @@ header {
 }
 .login_btn,
 .signup_btn {
-  /* font-family: "IBM Plex Sans Thai Looped", sans-serif; */
   font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   font-size: 20px;
   text-align: center;
   width: 150px;
   height: 60px;
-  color: black;
+  color: white;
   border-radius: 12%;
   transition: ease-out 0.3s;
 }
@@ -95,8 +101,9 @@ header {
   font-weight: bolder;
   margin-left: 150px;
   margin-right: 150px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 40px;
   text-align: center;
   margin-top: -20px;
 }
@@ -196,6 +203,7 @@ input {
   min-height: 100px;
   max-width: 200px;
   max-height: 100px;
+  background-color: white;
 }
 .insert_calories {
   width: 200px;
@@ -211,8 +219,8 @@ input {
   font-weight: bolder;
   margin-left: 170px;
   margin-right: 150px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
   text-align: center;
   margin-top: -10px;
 }
@@ -231,11 +239,32 @@ input {
   border-color: rgb(46, 66, 110);
   border-width: 10px;
 }
-table {
-  font-family: "Open Sans", sans-serif;
+
+.table-design {
   color: white;
-  text-align: center;
-  margin-left: 150;
-  margin-right: 150;
-  align-items: center;
+  border-collapse: collapse;
+}
+.update_remove_btns {
+  padding: 5px;
+  background-color: rgb(139, 139, 150);
+  color: white;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.table-centering {
+  /* margin-left: 5rem; */
+  margin-top: -5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  width: 60%;
+}
+thead {
+  font-size: 20px;
+  height: 70px;
+  margin: 200px;
+  padding: 8px;
+}
+.headlines {
+  font-family: 'Smooch Sans', sans-serif;
 }
