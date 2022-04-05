@@ -14,7 +14,7 @@
 		<div class="main">
 			<h1 class="title">Fittme</h1>
 			<h1 class="signup_title">SIGN UP</h1>
-			<form>
+			<form action="<%= request.getContextPath() %>/signup" method="post"> 
 				<br>	
 				<input type="text" placeholder="First Name">
 				<br>
