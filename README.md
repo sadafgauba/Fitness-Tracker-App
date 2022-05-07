@@ -1,7 +1,8 @@
-FITTME - Calorie Tracker App Fittme allows people to track the calories they
-have eaten in a particular day. Users can add description of the food they have
-eaten throughout the day and add the number of calories they consumed in a
-particular day.
+FITTME - Calorie Tracker App
+
+Fittme allows people to track the calories they have eaten in a particular day.
+Users can add description of the food they have eaten throughout the day and add
+the number of calories they consumed in a particular day.
 
 How to use this app:
 
