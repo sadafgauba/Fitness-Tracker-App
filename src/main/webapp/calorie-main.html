@@ -16,56 +16,21 @@
 			<h1 class="login_title">CALORIE INTAKE LOG</h1>
 			<br><br>
 			<div class="table-centering">
-			<table class="table-design">
-				<thead>
-					<td>Date</td>
-					<td>Calories</td>
-					<td>Description</td>
-					<td>Update</td>
-					<td>Remove</td>
-				</thead>
-				<tbody>
-					<tr>
-						<td>05/01/2019</td>
-						<td>1234</td>
-						<td>Ate a banana...</td>
-						<td><a href="calorie-form.html"><button class="update_remove_btns">Update</button></a></td>
-						<td><button class="update_remove_btns">Remove</button></td>
-					</tr>
-					<tr>
-						<td>05/02/2019</td>
-						<td>1234</td>
-						<td>Ate a banana...</td>
-						<td><a href="calorie-form.html"><button class="update_remove_btns">Update</button></a></td>
-						<td><button class="update_remove_btns">Remove</button></td>
-					</tr>
-					<tr>
-						<td>05/03/2019</td>
-						<td>1234</td>
-						<td>Ate a banana...</td>
-						<td><a href="calorie-form.html"><button class="update_remove_btns">Update</button></a></td>
-						<td><button class="update_remove_btns">Remove</button></td>
-					</tr>
-					<tr>
-						<td>05/04/2019</td>
-						<td>1234</td>
-						<td>Ate a banana...</td>
-						<td><a href="calorie-form.html"><button class="update_remove_btns">Update</button></a></td>
-						<td><button class="update_remove_btns">Remove</button></td>
-					</tr>
-					<tr>
-						<td>05/05/2019</td>
-						<td>1234</td>
-						<td>Ate a banana...</td>
-						<td><a href="calorie-form.html"><button class="update_remove_btns">Update</button></a></td>
-						<td><button class="update_remove_btns">Remove</button></td>
-					</tr>
-				</tbody>
 			
-			</table>
+			<br>
+			<br>
+			<br>
+			<form action="calorie-main.jsp" method="post">
+			<input type="date" name="date" placeholder="Choose date">
+			<br>
+			<br>
+			<button type="submit" class="signup_btn2">SEE RECORD</button>
+			</form>
 			</div>
-			<a href="home.html"><button class="back_btn">BACK</button></a>
-			<a href="calorie-form.html"><button class="back_btn">ADD A LOG</button></a>
+			<a href="home.jsp"><button class="back_btn">BACK</button></a>
+			<form action="calorie-form.html" method="post">
+			<button type="submit" class="back_btn">ADD A LOG</button>
+			</form>
 			<br>
 		</div>
 

@@ -1,12 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ page import="java.io.*, java.util.*" %>
+<%@ page import="java.sql.*" %>
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>FittMe - Home</title>
-	<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
+<meta charset="ISO-8859-1">
+<title>Fittme - Home</title>
+<%
+
+String email= (String)request.getSession().getAttribute("email");
+
+%>
 </head>
 
 <body class="login_body">

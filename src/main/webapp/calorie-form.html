@@ -13,29 +13,23 @@
 			<div class="main">
 				<h1 class="title">Fittme</h1>
 				<h1 class="login_title">CALORIE INTAKE</h1>
-				<form>
-					<!-- <h3>
-						Goal
-					</h3>
-					<input type="number" placeholder="1600">
-					<br>
-					<br>
-					<br> -->
+				<form action="calorie-form.jsp" method="post">
 					<br>
 					<h3 class="headlines ">Calories</h3>
-					<input type="number" placeholder="">
+					<input type="number" name="calorieCount" placeholder="">
 					<br>
 					<br>
 					<h3 class="headlines">Description</h3>
-					<textarea class="textbox" type="text" placeholder="Enter description here"></textarea>
+					<textarea class="textbox" type="text" name="description" placeholder="Enter description here"></textarea>
 					<br>
 					<br>
 					<h3 class="headlines">Date</h3>
-					<input type="date">
+					<input type="date" name="date">
 					<br>
+					<br>
+					<button type="submit" class="login_btn2">SUBMIT</button>
 				</form>
 				<a href="calorie-main.html"><button class="back_btn">BACK</button></a>
-				<a href="calorie-main.html"><button class="login_btn2">SUBMIT</button></a>
 			</div>
 	
 		</header>
