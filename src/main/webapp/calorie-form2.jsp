@@ -25,11 +25,11 @@ Statement Cmd = Con.createStatement();
 				<h1 class="login_title">CALORIE INTAKE</h1>
 				<form action="update-record.jsp" method="post">
 					<h3 class="headlines ">Calories</h3>
-					<input type="number" name="calorieCount" value="<%=calorieCount%>">
+					<input type="number" name="calorieCount" value="<%=calorieCount%>" maxlength="5">
 					<br>
 					<br>
 					<h3 class="headlines">Description</h3>
-					<textarea class="textbox" type="text" name="description" maxlength=100><%=description%></textarea>
+					<textarea class="textbox" type="text" name="description" ><%=description%></textarea>
 					<br>
 					<br>
 					<h3 class="headlines">Date</h3>

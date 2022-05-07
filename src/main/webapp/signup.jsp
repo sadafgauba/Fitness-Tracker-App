@@ -46,13 +46,13 @@ else {
 		cmd.close();
 		con.close();
 		request.getSession().setAttribute("email", email);
-		request.getRequestDispatcher("home.jsp").forward(request, response);
+		request.getRequestDispatcher("login.html").forward(request, response);
 	}
 }
 
 %>
 </head>
-
+<div id="wrapper">
 <body class="signup_body">
 	<header>
 		<div class="main">
@@ -91,5 +91,6 @@ else {
 		
 	</header>
 </body>
+</div>
 
 </html>

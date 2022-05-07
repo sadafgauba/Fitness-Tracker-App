@@ -6,7 +6,7 @@ the number of calories they consumed in a particular day.
 
 How to use this app:
 
-1. Create a an account by adding your first and last name, email address and
+1. Create a an account by adding your first and last name, email address, and
    password. Make sure the email you have entered is not already been used and
    the password and re-enter password match. Once done, you will be redirected
    to "Log In" page

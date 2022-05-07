@@ -12,7 +12,7 @@ Class.forName("com.mysql.cj.jdbc.Driver");
 
 String date = request.getParameter("date");
 String description = request.getParameter("description");
-String calorieCount = request.getParameter("calorieCount");
+int calorieCount = Integer.parseInt(request.getParameter("calorieCount"));
 String email= (String)request.getSession().getAttribute("email");
 System.out.println("Email in calorie form: " + email);
 
@@ -29,7 +29,8 @@ if (recordExists) {
 } else {
 	Con = DriverManager.getConnection("jdbc:mysql://localhost:3306/fittmedb", "root", "MGMT460SQL");
 	Cmd = Con.createStatement();
-	SQL = String.format("insert into fittmedb.calorieIntake(email, date, description, calorieCount) values('%s', '%s', '%s', '%s')", email, date,
+	System.out.printf("%s", email);
+	SQL = String.format("insert into fittmedb.calorieIntake(email, date, description, calorieCount) values('%s', '%s', '%s', '%d')", email, date,
 			description, calorieCount);
 	Cmd.executeUpdate(SQL);
 		Dat.close();
@@ -51,7 +52,7 @@ if (recordExists) {
 					<%=ErrMsg %>
 					</div>
 					<h3 class="headlines ">Calories</h3>
-					<input type="number" name="calorieCount" placeholder="">
+					<input type="number" name="calorieCount" placeholder="" maxlength="5">
 					<br>
 					<br>
 					<h3 class="headlines">Description</h3>
