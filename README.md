@@ -1,15 +1,15 @@
 FITTME - Calorie Tracker App
 
-Fittme allows people to track the calories they have eaten in a particular day.
-Users can add description of the food they have eaten throughout the day and add
-the number of calories they consumed in a particular day.
+Fittme allows people to track the calories they have consumed in a particular day.
+Users can add the total calorie intake and the description of food and beverages 
+consumed in the form and later access the information using the date.
 
 How to use this app:
 
-1. Create a an account by adding your first and last name, email address, and
-   password. Make sure the email you have entered is not already been used and
-   the password and re-enter password match. Once done, you will be redirected
-   to "Log In" page
+1. Create an account by adding your first and last name, email address, and
+   password. Make sure the email you have entered is not already being used and
+   the password and re-enter password inputs match. Once done, you will be redirected
+   to "Log In" page.
 
 2. Log in to your account using email and password.
 
@@ -28,6 +28,7 @@ PLEASE NOTE: you can only create 1 record for each date.
    If the record exists, then it will show the record with the description
    hidden, "VIEW/EDIT" button, and "DELETE" button. If the record doesn't exists
    then you will see an error.
+   
 7. Once the record is selected, you can view the record or edit the record by
    clicking on "VIEW/EDIT" button for that specific date.
 
